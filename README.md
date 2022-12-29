@@ -2,7 +2,12 @@
 projet omnivox it 
 
 
-*Framework
+# Framework intégré dans  laravel
 
 - UIKIT
+
+# Page terminée
+
+- Login
+- create account
 

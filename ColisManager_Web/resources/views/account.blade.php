@@ -26,29 +26,57 @@
     <div class="uk-section uk-section-muted uk-flex uk-flex-middle uk-animation-fade" uk-height-viewport>
 	<div class="uk-width-1-1">
 		<div class="uk-container">
-			<div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
-				<div class="uk-width-1-1@m  ">
-					<div class="uk-margin  uk-width-medium uk-height-large uk-margin-auto uk-card uk-card-default uk-card-body uk-box-shadow-large" style="background-color:#A2D9CE;">
-						<h4 class=" uk-margin-medium-bottom uk-card-title uk-text-center">Welcome Colis Manager!</h4>
-						<form>
-							<div class="uk-margin-medium-bottom">
-								<div class="uk-inline uk-width-1-1">
-									<span class="uk-form-icon" uk-icon="icon: receiver"></span>
-									<input class="uk-input uk-form-medium" type="number ">
+			<div class="uk-grid-margin uk-grid-large uk-grid-stack" uk-grid>
+				<div class="uk-width-1-1@m uk-height-large ">
+					<div class="uk-margin  uk-width-large  uk-margin-auto uk-card uk-card-default uk-card-body uk-box-shadow-large" uk-height-viewport="expand: true" style="background-color:#A2D9CE;">
+						<h4 class=" uk-margin uk-card-title uk-text-center">Create account!</h4>
+						<form class="uk-grid-small" uk-grid>
+								<div class="uk-inline uk-width-1-2@s">
+                                    <label class="uk-form-label" for="nom">Nom</label>
+									<input class="uk-input uk-form-medium" id="nom" type="text">
 								</div>
-							</div>
-							<div class="uk-margin-medium-bottom">
-								<div class="uk-inline uk-width-1-1">
-									<span class="uk-form-icon" uk-icon="icon: lock"></span>
+                                <div class="uk-inline uk-width-1-2@s">
+                                    <label class="uk-form-label" for="prenom">Prénom</label>
+									<input class="uk-input uk-form-medium" id="prenom" type="text">
+								</div>
+                                <div class="uk-inline">
+                                    <label class="uk-form-label" for="form-horizontal-select">Code</label>
+                                    <select class="uk-select" id="form-horizontal-select">
+                                        <option>+225</option>
+                                        <option>+224</option>
+                                        <option>+223</option>
+                                        <option>+222</option>
+                                        <option>+221</option>
+                                    </select>
+                                </div>
+								<div class="uk-inline uk-width-1-2@s">
+                                    <label class="uk-form-label" for="numero">Numéro</label>
+									<input class="uk-input uk-form-medium" id="numero" type="number ">
+								</div>
+                                <div class="uk-inline uk-width-1-1@s">
+                                    <label class="uk-form-label" for="form-horizontal-select">User</label>
+                                        <select class="uk-select" id="form-horizontal-select">
+                                            <option>Livreur</option>
+                                            <option>Marchand</option>
+                                            <option>ouvrier</option>
+                                            <option>Employé de maison</option>
+                                            <option>Usager</option>
+                                        </select>
+                                </div>
+								<div class="uk-inline uk-width-1-2@s">
+                                    <label class="uk-form-label" for="prenom">Mot de passe</label>
 									<input class="uk-input uk-form-medium" type="password">
 								</div>
-							</div>
-							<div class="uk-margin-medium-bottom uk-text-center">
-								<button class=" uk-button uk-button-primary uk-button-small uk-width-1-2">Login</button>
-							</div>
-							<div class="uk-text-small uk-text-center">
-								Not registered? <a href="{{ url('account')}}">Create an account</a>
-							</div>
+                                <div class="uk-inline uk-width-1-2@s">
+                                    <label class="uk-form-label" for="comfirme">comfirmé</label>
+									<input class="uk-input uk-form-medium" id="comfirme" type="password">
+								</div>
+                                <div class=" uk-inline uk-width-1-1@s uk-text-center">
+                                    <button class=" uk-button uk-button-primary uk-button-small uk-width-1-2">Create</button>
+                                </div>
+                                <div class=" uk-inline uk-text-small uk-text-center">
+                                    Do you want <a href="{{ url('')}}"> to connect ?</a>
+                                </div>
 						</form>
 					</div>
 				</div>
