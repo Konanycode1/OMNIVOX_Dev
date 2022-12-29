@@ -27,7 +27,7 @@
 	<div class="uk-width-1-1">
 		<div class="uk-container">
 			<div class="uk-grid-margin uk-grid-large uk-grid-stack" uk-grid>
-				<div class="uk-width-1-1@m uk-height-large ">
+				<div class="uk-width-1-1@m uk-height  ">
 					<div class="uk-margin  uk-width-large  uk-margin-auto uk-card uk-card-default uk-card-body uk-box-shadow-large" uk-height-viewport="expand: true" style="background-color:#A2D9CE;">
 						<h4 class=" uk-margin uk-card-title uk-text-center">Create account!</h4>
 						<form class="uk-grid-small" uk-grid>
