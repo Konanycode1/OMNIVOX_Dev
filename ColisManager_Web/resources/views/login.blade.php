@@ -28,8 +28,8 @@
 		<div class="uk-container">
 			<div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
 				<div class="uk-width-1-1@m  ">
-					<div class="uk-margin  uk-width-large uk-height-large uk-margin-auto uk-card uk-card-default uk-card-body uk-box-shadow-large" style="background-color:#A2D9CE;">
-						<h3 class=" uk-margin-medium-bottom uk-card-title uk-text-center">Welcome Colis Manager!</h3>
+					<div class="uk-margin  uk-width-medium uk-height-large uk-margin-auto uk-card uk-card-default uk-card-body uk-box-shadow-large" style="background-color:#A2D9CE;">
+						<h4 class=" uk-margin-medium-bottom uk-card-title uk-text-center">Welcome Colis Manager!</h4>
 						<form>
 							<div class="uk-margin-medium-bottom">
 								<div class="uk-inline uk-width-1-1">
